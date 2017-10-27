@@ -4,13 +4,15 @@
 **Version 1.0.3**
 
 ## Overview
-Our goal with this project was to build a mobile-first site, using jQuery to dynamically render blog posts sorted by most recent publication date. Additional functionality includes being able to sort the articles by author and category from drop down lists. Also, only a preview of each article is shown, and a read more button, when pressed, reveals the entire article.
+Our goal with this project was to optimize the structure of our HTML and JS in our ongoing blog site with the inclusion of Handlebars.js, and to improve our skills with refactoring Arrow Functions.
 
 ## Getting Started
-To build this app on your own machine, clone this repo and launch the html page in your browser.
+1. Andrew forked the Instructors' repo for this lab, added Phelan as a collaborator, created the andrew-phelan branch, and we cloned this repo to our local machines.
+2. With Andrew driving and Phelan navigating, we reviewed the User Stories, then reviewed the code briefly to wrap our heads around it, then proceeded to dispatch 3/4 TODOs.
+3. We synched changes, Phelan created the phelan-andrew branch, completed the final TODO and COMMENT tags, completed documentation, and will now push the final update.
 
 ## Architecture
-We are using a SMACSS organization of our CSS. We are using jQuery to dynamically render and manipulate DOM elements. We are using Handlebars to simplify the templating process.
+The major change in architecture for this lab is the addition of a Handlebars-based HTML template, and the JS behind the scenes to process it. This includes using curly-bracket Handlebars-linked notation in HTML, and the Handlebars externl library in our JS.
 
 ## Change Log
 **No changes currently**

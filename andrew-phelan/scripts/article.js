@@ -28,8 +28,9 @@ Article.prototype.toHtml = function() {
 
 };
 
-// COMMENT: Why are there parentheses around "(a,b)" in the .sort() method, but not around the "articleObject" or "article" arguments in the .forEach() methods?
-// The a and b are parameters in the sort method. "articleObject" and "article" are arbitrary names passed as arguments which represent the elements which the forEach function is looping over in the RawData and articles arrays. Because there is only one argument, in these cases a set of parentheses is not necessary.
+// COMMENTED: Why are there parentheses around "(a,b)" in the .sort() method, but not around the "articleObject" or "article" arguments in the .forEach() methods?
+// The a and b are parameters in the sort method. "articleObject" and "article" are arbitrary names passed as arguments which represent the elements which the forEach function is looping over in the RawData and articles arrays. Since there is only one argument on the latter two functions, thier argument list does not have to be surrounded by a set of parenthesis.
+
 rawData.sort((a,b) => {
   return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
 });
