@@ -10,7 +10,7 @@ Our goal with this project was to build a mobile-first site, using jQuery to dyn
 To build this app on your own machine, clone this repo and launch the html page in your browser.
 
 ## Architecture
-We are using a SMACSS organization of our CSS. We are using jQuery to dynamically render and manipulate DOM elements.
+We are using a SMACSS organization of our CSS. We are using jQuery to dynamically render and manipulate DOM elements. We are using Handlebars to simplify the templating process.
 
 ## Change Log
 **No changes currently**
